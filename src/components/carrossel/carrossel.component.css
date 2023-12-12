@@ -1,0 +1,58 @@
+.carrossel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dots {
+  display: flex;
+  margin-top: 15px;
+  gap: 0.5rem;
+}
+
+.dot {
+  background-color: #cccccc;
+  border: none;
+  width: 0; /* Aqui removemos a largura */
+  height: 0; /* Aqui removemos a altura */
+  padding: 6px; /* Aqui adicionamos padding para dar tamanho ao botão */
+  margin: 0 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dot.active,
+.dot:hover {
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    width: 100%;
+  }
+}

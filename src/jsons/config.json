@@ -1,0 +1,120 @@
+{
+  "preco": {
+    "precoProdutoFake": "89,90",
+    "precoBonusFake": "59,90",
+    "precoProdutoReal": "29,90"
+  },
+  "paragrafosIniciais": [
+    "Imagine acelerar suas vendas como nunca antes! Com Venda em 48 Horas, transforme interessados em compradores em apenas dois dias. Este é o segredo dos top vendedores para obter lucros rápidos. Não fique de fora da revolução das vendas!"
+  ],
+  "descobertas": [
+    "Conversão em Vendas 9x Mais Rápida",
+    "Desbloqueia Objeções Comuns dos Clientes",
+    "Ativa Estratégias de Persuasão Profundas",
+    "Método Desenvolvido em Parceria com Especialistas Globais:",
+    "Técnicas 100% Eficazes, Sem Táticas Agressivas"
+  ],
+  "perguntasFrequentes": [
+    {
+      "id": 1,
+      "exibir": false,
+      "pergunta": "O que é exatamente o Venda em 48 Horas",
+      "resposta": [
+        "O Venda em 48 Horas é um método avançado e comprovado de estratégias de vendas que visa acelerar conversões e fechar vendas em apenas dois dias."
+      ]
+    },
+    {
+      "id": 2,
+      "exibir": false,
+      "pergunta": "Preciso ter experiência em vendas para utilizar esse método?",
+      "resposta": [
+        "Não, o Venda em 48 Horas foi projetado para ser eficaz tanto para novatos quanto para profissionais experientes. Os módulos são estruturados de forma clara e fácil de seguir."
+      ]
+    },
+    {
+      "id": 3,
+      "exibir": false,
+      "pergunta": " Este método é aplicável a qualquer nicho de mercado?",
+      "resposta": [
+        "Após a conclusão da sua compra, você receberá um link por e-mail para acessar todos os módulos e materiais online do Venda em 48 Horas."
+      ]
+    },
+    {
+      "id": 4,
+      "exibir": false,
+      "pergunta": "Existem atualizações para o método? Preciso pagar por elas?",
+      "resposta": [
+        "Periodicamente, fazemos atualizações no método para refletir as melhores práticas e tendências do mercado. Todas as atualizações são gratuitas para os clientes que já adquiriram o produto."
+      ]
+    },
+    {
+      "id": 5,
+      "exibir": false,
+      "pergunta": "Como funciona o pagamento?",
+      "resposta": [
+        "Aceitamos os cartões de crédito mais usados: visa, mastercard, através da plataforma de pagamento MONETIZZE . Não é possível parcelar no boleto bancário, pois no boleto é pagamento único. É possível parcelar somente no cartão de crédito em até 12x. É possível dividir em dois cartões de crédito diferentes."
+      ]
+    },
+    {
+      "id": 6,
+      "exibir": false,
+      "pergunta": "Site é seguro?",
+      "resposta": [
+        "Este site é 100% protegido contra recursos de má intenção. Suas informações pessoais são sigilosas segundo a nossa Política de Privacidade e a entrega é garantida! O Folixil é vendido diariamente para pessoas de todo o Brasil."
+      ]
+    },
+    {
+      "id": 7,
+      "exibir": false,
+      "pergunta": "O que acontece se não funcionar para mim?",
+      "resposta": [
+        "Se você não estiver satisfeito com os resultados após um período determinado, entraremos em contato para encontrar uma solução que funcione para você."
+      ]
+    }
+  ],
+  "beneficiosxcaracteristicas": [
+    {
+      "id": 1,
+      "beneficio": "Conversão em Vendas 9x Mais Rápida",
+      "caracteristica": 
+        "Economize tempo e esforço, alcançando resultados em menos tempo e aumentando sua rentabilidade."
+      
+    },
+    {
+      "id": 3,
+      "beneficio": "Adaptação a Diversos Nichos de Mercado",
+      "caracteristica": 
+        "Independente do seu setor, tenha a certeza de uma estratégia que se molda às suas necessidades, ampliando sua base de clientes potenciais."
+    },
+    {
+      "id": 4,
+      "beneficio": "Ferramentas",
+      "caracteristica": 
+        "Entenda o que está em alta e como encontrar produtos que vendem, espionando o que já existe e melhorando"
+    },
+    {
+      "id": 5,
+      "beneficio": "Materiais de Apoio e Templates Prontos",
+      "caracteristica": 
+        "Agilize a implementação das estratégias com recursos pré-elaborados, otimizando tempo e garantindo a eficácia desde o primeiro uso."
+    },
+    {
+      "id": 6,
+      "beneficio": "Estratégias Baseadas em Psicologia de Consumo",
+      "caracteristica": 
+        "Compreenda profundamente os gatilhos mentais dos seus clientes, possibilitando uma abordagem mais empática e bem-sucedida."
+    },
+    {
+      "id": 7,
+      "beneficio": "Treinamento passo a passo com estratégias de divulgação para vender",
+      "caracteristica": 
+        "Além dos Plr’s, você terá acesso ao treinamento de ESTRATÉGIAS DE VENDAS para você saber a de FORMA CERTA divulgar e conseguir vender todos os dias seus Plr’s"
+    },
+    {
+      "id": 8,
+      "beneficio": "Produtos PLR Prontos",
+      "caracteristica": 
+        "Não perca tempo, você terá acesso a Plr’s PRONTOS para copiar, colar e vender."
+    }
+  ]
+}

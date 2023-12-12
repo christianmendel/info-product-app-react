@@ -1,0 +1,480 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.escassez-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grey_white,
+.grey {
+  color: var(--color-grey);
+}
+
+.red_rose {
+  color: var(--color-primary);
+}
+
+.margin-10-0 {
+  margin: 10px 0;
+}
+
+.margin-40-0 {
+  margin: 40px 0;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-center-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.flex-center-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.flex-center-right > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.flex-col-all-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.fcOk {
+  margin-right: 0.5em;
+  font-size: 20px;
+}
+
+.text-align-start {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--color-dark);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.button_chamada_acao {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 5px;
+  transition: background-color var(--transition-speed);
+  animation: swing 3s ease-in-out infinite;
+}
+
+.button_chamada_acao:hover {
+  background-color: var(--color-accent);
+}
+
+.button_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  background-color: var(--color-light);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow var(--transition-speed);
+  margin-bottom: 1em;
+}
+
+.button_box:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(3deg);
+  }
+  40% {
+    transform: rotate(-3deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
+  80% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.depoimentos_post_img {
+  width: 80%;
+  height: auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform var(--transition-speed),
+    box-shadow var(--transition-speed);
+  object-fit: cover;
+  object-position: center;
+}
+
+.depoimentos_post_dep_img {
+  width: 50%;
+  height: 500px;
+  margin: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: transform var(--transition-speed),
+    box-shadow var(--transition-speed);
+  object-fit: cover;
+  object-position: center;
+}
+
+.quedaCabelo_img,
+.olhandoFiosCabelo_img,
+.templateMockupProduto_img,
+.RA_img,
+.garantia_img,
+.perfil_img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.seloReclameAqui_img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+}
+
+.quedaCabelo_img {
+  border-radius: 15px;
+}
+
+.showInfo_div {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1em;
+  transition: box-shadow var(--transition-speed);
+}
+
+.showInfo_div:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.showInfo_div h2 {
+  color: var(--color-primary);
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+.showInfo_div > div {
+  border-top: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+
+.showInfo_div > div:first-child {
+  border-top: none;
+}
+
+.showInfo_div .flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.showInfo_div .flex-center h3 {
+  margin: 0;
+  color: var(--color-dark);
+  font-size: 18px;
+}
+
+.showInfo_button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showInfo_div .showInfo_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-dark);
+}
+
+.showInfo_div .showInfo_div {
+  padding: 10px 0;
+}
+
+.showInfo_div .text-align-start {
+  text-align: start;
+  color: var(--color-grey);
+  margin: 0;
+  transition: color var(--transition-speed);
+}
+
+.showInfo_div .text-align-start:hover {
+  color: var(--color-dark);
+}
+
+.flex-center-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.garantia_compra_img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.garantia_img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.bonus_img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.flex-center-left > div {
+  flex-grow: 1;
+}
+
+.bonus_div {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2em;
+}
+
+.bonus_div h2 {
+  color: var(--color-grey);
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.bonus_div h1 {
+  color: var(--color-dark);
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.bonus_div p {
+  color: var(--color-dark);
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.bonus_div img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.bonus_div .grey {
+  color: var(--color-grey);
+  text-decoration: line-through;
+}
+
+.depoimentos_post_img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.depoimentos_post_dep_img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.olhandoFiosCabelo_img {
+  height: auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.feature-benefit-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature,
+.benefit {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  width: calc(50% - 10px);
+  background-color: var(--color-light);
+}
+
+.feature {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.benefit {
+  font-weight: normal;
+  color: var(--color-dark);
+}
+
+.depoimentos_videos_order {
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimento_video video {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .feature,
+  .benefit {
+    width: 100%;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .flex-wrap {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .flex-center-left,
+  .flex-center-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .depoimentos_post_img,
+  .quedaCabelo_img,
+  .olhandoFiosCabelo_img,
+  .templateMockupProduto_img,
+  .RA_img,
+  .seloReclameAqui_img,
+  .garantia_img,
+  .perfil_img {
+    width: 100%;
+  }
+
+  .RA_img {
+    width: 80%;
+  }
+
+  .flex-center-right {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 480px) {
+  .button_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button_chamada_acao {
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .bonus_div {
+    padding: 10px;
+  }
+
+  .bonus_div h2 {
+    font-size: 1.2em;
+  }
+
+  .bonus_div h1 {
+    font-size: 1.5em;
+  }
+
+  .bonus_div p {
+    font-size: 0.9em;
+  }
+
+  .bonus_div img {
+    max-width: 100%;
+  }
+
+  .depoimentos_post_img,
+  .depoimentos_post_dep_img {
+    height: auto;
+    transition: max-width var(--transition-speed);
+  }
+}

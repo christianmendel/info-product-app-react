@@ -1,0 +1,28 @@
+/* Chat.css */
+.chat-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+}
+
+button {
+  margin-left: 5px;
+}
