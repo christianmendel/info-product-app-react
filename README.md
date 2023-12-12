@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+## 🛍️📦 Info Produto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+⚙️ Funcionalidades
 
-## Available Scripts
+• Uma página contendo informações sobre um produto qualquer (modelo usado como teste).
 
-In the project directory, you can run:
+🛠️ Ferramentas
 
-### `npm start`
+• HTML
+• CSS
+• React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📖 Documentação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://legacy.reactjs.org/docs/getting-started.html
 
-### `npm test`
+🚀 Começando
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sinta-se à vontade para clonar este repositório e testá-lo em sua máquina. Siga os passos abaixo para começar:
 
-### `npm run build`
+1- Clone o Repositório:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2- Acesse o Diretório:
+cd nome-do-repositorio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3- Instale as Dependências (se necessário):
+Dependendo do projeto, pode ser necessário instalar dependências. Verifique o arquivo de documentação ou execute comandos como npm install ou pip install -r requirements.txt.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4 - Execute o Projeto:
+Siga as instruções específicas do projeto para iniciar ou executar o aplicativo.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aproveite explorar o projeto e boa codificação! 🚀
